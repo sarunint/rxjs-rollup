@@ -1,6 +1,6 @@
 import { Observable } from 'rxjs/Observable';
 import { of } from 'rxjs/observable/of';
-import { map } from 'rxjs/operators/map';
+import { map } from 'rxjs/operators';
 
 of(1, 2, 3)
   .pipe(
